@@ -73,3 +73,7 @@ public:
         analogWrite(pin_pwm, 0);
     }
 };
+void setup(){
+}
+void loop(){
+}
