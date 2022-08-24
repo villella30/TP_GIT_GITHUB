@@ -68,7 +68,6 @@ public:
 
     void stop() //Freno
     {
-        //seteo la velocidad a 0 para frenar el motor.
         digitalWrite(pin_dir, LOW);
         analogWrite(pin_pwm, 0);
     }
