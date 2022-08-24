@@ -1,10 +1,3 @@
-class Motor
-{
-private:
-    /***************** Atributos ************************/
-    int default_speed = 100;
-    int pin_dir, pin_pwm, speed;
-    bool invert;
 
 public:
     /**************** Metodo constructor *****************/
@@ -72,6 +65,9 @@ public:
         analogWrite(pin_pwm, 0);
     }
 };
+
+
+
 void setup(){
 }
 void loop(){
