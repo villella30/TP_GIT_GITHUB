@@ -1,4 +1,4 @@
-
+class Motor(){
 public:
     /**************** Metodo constructor *****************/
     Motor(int pdir, int ppwm)
