@@ -1,3 +1,37 @@
+class Pulsador(
+
+    private:
+    int pin;
+    pulsdor(in pin)(
+this->pin - pin;
+pinMode(this->pin,INPUT);
+    )
+
+    bool isPress()(
+        return digitalRead (this->pin);
+    )
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void setup()(
+
+
+)
+
+
 class Motor(){
 public:
     /**************** Metodo constructor *****************/
